@@ -4,7 +4,7 @@
   "description": "JavaScript development environment Pluralsight course by Cory House",
   "main": "index.js",
   "scripts": {
-    "prestart": "node buildScripts/startMessage.js",
+    "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel open:src",
     "open:src": "node buildScripts/srcServer.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,13 +21,14 @@
     "url": "https://github.com/emw-ghertner/pluralsight-js-dev-env/issues"
   },
   "homepage": "https://github.com/emw-ghertner/pluralsight-js-dev-env#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0"
+  },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.6",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
     "chai": "^4.2.0",
     "chalk": "^2.4.2",
     "cheerio": "^1.0.0-rc.3",
