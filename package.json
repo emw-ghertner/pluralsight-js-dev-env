@@ -1,0 +1,49 @@
+{
+  "name": "javascript-development-environment",
+  "version": "1.0.0",
+  "description": "JavaScript development environment Pluralsight course by Cory House",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emw-ghertner/pluralsight-js-dev-env.git"
+  },
+  "author": "Eric Warren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emw-ghertner/pluralsight-js-dev-env/issues"
+  },
+  "homepage": "https://github.com/emw-ghertner/pluralsight-js-dev-env#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cross-env": "^6.0.0",
+    "eslint": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-watch": "^6.0.1",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jsdom": "^15.1.1",
+    "localtunnel": "^2.0.0",
+    "mocha": "^6.2.0",
+    "nock": "^11.3.5",
+    "npm-run-all": "^4.1.5",
+    "nsp": "^3.2.1",
+    "numeral": "^2.0.6",
+    "open": "^6.4.0",
+    "rimraf": "^3.0.0",
+    "webpack": "^4.41.0",
+    "webpack-dev-middleware": "^3.7.1",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-md5-hash": "0.0.6"
+  }
+}
