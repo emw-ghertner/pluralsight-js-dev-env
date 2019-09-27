@@ -3,10 +3,10 @@ const presets = [
     '@babel/preset-env',
     {
       targets: {
-        esmodules: true
-      }
-    }
-  ]
+        esmodules: true,
+      },
+    },
+  ],
 ];
 
 module.exports = { presets };
