@@ -1,5 +1,12 @@
 const presets = [
-  "@babel/preset-env"
+  [
+    '@babel/preset-env',
+    {
+      targets: {
+        esmodules: true
+      }
+    }
+  ]
 ];
 
-module.exports = { presets }
+module.exports = { presets };
