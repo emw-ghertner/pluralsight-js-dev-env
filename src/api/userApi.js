@@ -1,5 +1,3 @@
-import 'whatwg-fetch';
-
 function onSuccess(response) {
   return response.json();
 }
