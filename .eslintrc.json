@@ -20,6 +20,6 @@
       "no-console": "warn",
       "quotes": ["warn", "single"],
       "semi": ["warn", "always"],
-      "comma-dangle": ["error", "always"]
+      "comma-dangle": ["error", "always-multiline"]
     }
 }
