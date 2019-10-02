@@ -9,7 +9,7 @@ export const schema = {
         "type": "object",
         "properties": {
           "id": {
-            "$ref": "#/definitions/positiveInt"
+            "type": "integer"
           },
           "firstName": {
             "type": "string",
