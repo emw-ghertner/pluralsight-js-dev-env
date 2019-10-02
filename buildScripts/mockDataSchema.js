@@ -24,11 +24,11 @@ export const schema = {
             'type': 'string',
             'format': 'email',
             'faker': 'internet.email',
-          }
+          },
         },
-        'required': ['id', 'firstName', 'lastName', 'email']
-      }
-    }
+        'required': ['id', 'firstName', 'lastName', 'email'],
+      },
+    },
   },
-  'required': ['users']
+  'required': ['users'],
 };
